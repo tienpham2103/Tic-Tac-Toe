@@ -10,7 +10,13 @@
 
 - Then type: make
 
-- The program will be built in /bin. To run the program, type: ./bin/TTT
+- The program will be built in /bin. To run the program, type: ./bin/TTT <#Rows> <#Columns> <#toWin> <player1Type> <player2Type> <depth>
+  where:
+  #Rows: number of rows
+  #Columns: number of columns
+  #toWin: number of consecutive needed to win the game
+  player1Type, player2Type: could be either "human", "random" (AI will play random moves), or "AI" (AI will play smarter)
+  depth: depth of the minimax tree. Bigger depth = smarter AI = more runtime
 
 - Enter #rows and #columns then hit Enter
 
